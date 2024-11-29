@@ -6,7 +6,7 @@ We propose ASDnB, a model that singularly integrates face with body information 
 
 
 ![main_image](images/main_image.png)
-*Overview of the ASDnB~architecture. Body and face data are fed into the visual encoder, allowing intra encoder feature fusion and complement, while audio is processed through its respective encoder. Audio and visual features are combined to predict subject speaking label, using an adaptive weighted loss for combined and visual features (L_{av} and L_{v}, respectively).*
+*Overview of the ASDnB~architecture. Body and face data are fed into the visual encoder, allowing intra encoder feature fusion and complement, while audio is processed through its respective encoder. Audio and visual features are combined to predict subject speaking label, using an adaptive weighted loss for combined and visual features (Lav and Lv, respectively).*
 
 ![halfunet_visual_encoder](images/halfunet_visual_encoder.png)
 *Overview of the flow of face and body combination in ASDnB visual encoder. The first convolution for both inputs downsamples via stride.*
