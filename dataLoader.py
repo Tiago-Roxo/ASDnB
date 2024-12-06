@@ -71,10 +71,10 @@ def load_visual(data, dataPath, numFrames, visualAug):
     else:
         augType = 'orig'
     for faceFile in sortedFaceFiles[:numFrames]:
-        # face = cv2.imread(faceFile)
-        # face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
-        # face = cv2.resize(face, (H,H))
-        face = cv2.imread(faceFile, cv2.IMREAD_GRAYSCALE)
+        face = cv2.imread(faceFile)
+        face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
+        face = cv2.resize(face, (H,H))
+        # face = cv2.imread(faceFile, cv2.IMREAD_GRAYSCALE)
         if augType == 'orig':
             faces.append(face)
         elif augType == 'flip':
