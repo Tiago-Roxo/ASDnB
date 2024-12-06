@@ -28,9 +28,9 @@ python3 main.py --dataPath $DATASET --evaluation
 ```
 where `$DATASET` is the folder containing the dataset (AVA-ActiveSpeaker or WASD). Alternatively, you can run the script `infer.sh` which contains an example of evaluating the model in WASD. The model predictions are saved in a CSV (`val_res.csv`), in the `exps/wasd` folder (by default).
 
-The ASDnB model **trained on WASD** can be downloaded [here]().
+The ASDnB model **trained on WASD** can be downloaded [here](https://drive.google.com/file/d/1MZmnF9OPYjDu4UqwTD9I8H2QjJ8BakQE/view?usp=drive_link).
 
-The ASDnB model **trained on AVA-ActiveSpeaker** can be downloaded [here]().
+The ASDnB model **trained on AVA-ActiveSpeaker** can be downloaded [here](https://drive.google.com/file/d/1Q-fJ1awkjgx-U2A8L4Nl8ehQgFhKoqmw/view?usp=drive_link).
 
 
 ### AVA-ActiveSpeaker Performance
@@ -81,7 +81,7 @@ python3 Columbia_infer.py --videoFolder $DATASET
 ```
 where `$DATASET` is the folder containing the dataset (Columbia). Alternatively, you can run the script `infer_Columbia.sh` which contains an example of evaluating the model in Columbia.
 
-The ASDnB model **for Columbia** can be downloaded [here]().
+The ASDnB model **for Columbia** can be downloaded [here](https://drive.google.com/file/d/1Q-fJ1awkjgx-U2A8L4Nl8ehQgFhKoqmw/view?usp=drive_link).
 
 
 ### Columbia Performance
