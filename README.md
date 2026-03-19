@@ -1,5 +1,15 @@
 # ASDnB: Merging Face with Body Cues For Robust Active Speaker Detection
 
+## ⭐ What's New
+
+> **Last updated:** 2026-03-19
+
+| | Update | Description |
+|---|---|---|
+| 📄 | **Paper accepted** | Accepted at IJCB 2025 |
+
+***
+
 *Official Pytorch implementation of the [ASDnB: Merging Face with Body Cues For Robust Active Speaker Detection]()*
 
 We propose ASDnB, a model that singularly integrates face with body information by merging the inputs at different steps of feature extraction. Our approach splits 3D convolution into 2D and 1D to reduce computation cost without loss of performance, and is trained with adaptive weight feature importance for improved complement of face with body data. Our experiments show that ASDnB achieves state-of-the-art results in the benchmark dataset (AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download)), in the challenging data of [WASD](https://tiago-roxo.github.io/WASD/), and in cross-domain settings using [Columbia](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_18).
@@ -12,7 +22,7 @@ We propose ASDnB, a model that singularly integrates face with body information 
 *Overview of the flow of face and body combination in ASDnB visual encoder. The first convolution for both inputs downsamples via stride.*
 
 
-## AVA-ActiveSpeaker and WASD
+## 🗂️ AVA-ActiveSpeaker and WASD
 
 1. Download the AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD](https://tiago-roxo.github.io/WASD/) datasets;
 2. Create the environment with `conda` using the script `create_env.sh`;
@@ -33,7 +43,7 @@ The ASDnB model **trained on WASD** can be downloaded [here](https://drive.googl
 The ASDnB model **trained on AVA-ActiveSpeaker** can be downloaded [here](https://drive.google.com/file/d/1Q-fJ1awkjgx-U2A8L4Nl8ehQgFhKoqmw/view?usp=drive_link).
 
 
-### AVA-ActiveSpeaker Performance
+### 📊 AVA-ActiveSpeaker Performance
 
 Comparison of ASDnB with state-of-the-art models in AVA-ActiveSpeaker.
 
@@ -54,7 +64,7 @@ Comparison of ASDnB with state-of-the-art models in AVA-ActiveSpeaker.
 
 
 
-### WASD Performance
+### 📊 WASD Performance
 
 Comparison of ASDnB with state-of-the-art models on the different categories of WASD, using the mAP metric. *OC* refers to Optimal Conditions, *SI* to Speech Impairment, *FO* to Face Occlusion, *HVN* to Human Voice Noise, and *SS* to Surveillance Settings.
 
@@ -84,7 +94,7 @@ where `$DATASET` is the folder containing the dataset (Columbia). Alternatively,
 The ASDnB model **for Columbia** can be downloaded [here](https://drive.google.com/file/d/1Q-fJ1awkjgx-U2A8L4Nl8ehQgFhKoqmw/view?usp=drive_link).
 
 
-### Columbia Performance
+### 📊 Columbia Performance
 
 Comparison of F1-Score (%) on the Columbia dataset.
 
@@ -98,7 +108,7 @@ Comparison of F1-Score (%) on the Columbia dataset.
 
 
 
-## Cite
+## 📖 Cite
 
 ```bibtex
 @misc{roxo2024asdnb,
