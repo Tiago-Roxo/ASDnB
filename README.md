@@ -111,13 +111,13 @@ Comparison of F1-Score (%) on the Columbia dataset.
 ## 📖 Cite
 
 ```bibtex
-@misc{roxo2024asdnb,
-      title={ASDnB: Merging Face with Body Cues For Robust Active Speaker Detection}, 
-      author={Tiago Roxo and Joana C. Costa and Pedro Inácio and Hugo Proença},
-      year={2024},
-      eprint={2412.08594},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.08594}, 
-}
+@INPROCEEDINGS{11410746,
+  author={Roxo, Tiago and Costa, Joana C. and Inácio, Pedro R. M. and Proença, Hugo},
+  booktitle={2025 IEEE International Joint Conference on Biometrics (IJCB)}, 
+  title={ASDnB: Merging Face with Body Cues For Robust Active Speaker Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-10},
+  doi={10.1109/IJCB65343.2025.11410746}}
 ```
